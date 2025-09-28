@@ -1,0 +1,11 @@
+algo,n,repeat,elapsed_ms,comparisons,swaps,max_rec_depth
+select,128,0,5,756,498,3
+select,128,1,0,376,238,3
+select,362,0,1,2378,1499,4
+select,362,1,1,2278,1410,4
+select,1024,0,3,6741,4228,4
+select,1024,1,2,7535,4750,4
+select,2896,0,7,21565,13296,5
+select,2896,1,5,21980,13844,5
+select,8192,0,7,63871,39757,6
+select,8192,1,4,65342,40675,6

@@ -1,0 +1,11 @@
+algo,n,repeat,elapsed_ms,comparisons,swaps,max_rec_depth
+quicksort,128,0,4,1020,636,2
+quicksort,128,1,1,912,545,2
+quicksort,362,0,3,3663,1763,4
+quicksort,362,1,2,3162,1896,3
+quicksort,1024,0,2,11421,5971,4
+quicksort,1024,1,1,12743,7251,4
+quicksort,2896,0,3,41378,21256,5
+quicksort,2896,1,2,39497,20499,5
+quicksort,8192,0,7,122359,64503,6
+quicksort,8192,1,10,127560,75682,6
