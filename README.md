@@ -103,4 +103,17 @@ Overall: theory and experiment line up very well, with deviations fully explaine
 
 Branch structure used:
 
-- main →
+- main → stable tagged releases (`v0.1`, `v1.0`).  
+- feature/mergesort, feature/quicksort, feature/select, feature/closest, feature/metrics → development branches per component.  
+- docs/report → report and plots.  
+
+Example commit storyline:
+init: setup maven, junit5, readme
+feat(metrics): depth tracker and counters
+feat(mergesort): recursive mergesort with buffer reuse and cutoff
+feat(quicksort): randomized pivot, smaller-first recursion
+feat(select): median-of-medians selection
+feat(closest): closest pair divide-and-conquer
+bench: add CLI to run algorithms and write CSV
+docs(report): recurrence analysis and plots
+release: v1.0
